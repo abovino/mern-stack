@@ -1,0 +1,33 @@
+{
+  "name": "mern-lynda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js",
+    "dev": "webpack -wd"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "babel-cli": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "json-loader": "^0.5.4",
+    "mongodb": "^2.2.24",
+    "node-sass-middleware": "^0.11.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.17.1",
+    "eslint-plugin-react": "^6.10.0",
+    "webpack": "^2.2.1"
+  }
+}
