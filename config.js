@@ -9,5 +9,11 @@ export const logStars = function(message) {
 }
 
 export default {
-  port: env.PORT || 3000
-}
+  port: env.PORT || 3000,
+  host: env.HOST || '127.0.0.1',
+  get serverUrl() {
+    var url = `http://${this.host}:${this.port}`;
+    console.log("URL:!!! " + url);
+    return url;
+  }
+};
